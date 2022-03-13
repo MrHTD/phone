@@ -1,0 +1,291 @@
+/* navbar css */
+.navbar .navbar-brand{
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 30px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar .navbar-nav .nav-item .active-link-u{
+    width: 90%;
+    height: 2.5px;
+    border-radius: 10%;
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    margin-top: -5%;
+}
+.nav-bar-und{
+    width: 100%;
+    height: 4px;
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+}
+/* footer css */
+.foot-link {
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    height: 60px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+.foot-link .foot-link-text{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 25px;
+}
+.navbar .navbar-nav .nav-item .active-link{
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    color: #fff;
+}
+.navbar .bar{
+    background: -webkit-linear-gradient(bottom, #2a5ed3 0%, crimson 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* ------------------ Dropdown css */
+.navbar .dropdown-menu {
+    background-color: #2a5ed3;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+.navbar .dropdown-menu .dropdown-item{
+    color: #ffffff;
+}
+.navbar .dropdown-menu .dropdown-item:hover{
+    background-color: #ffffff;
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    border-radius: 2px;
+}
+.navbar .dropdown-menu .dropdown-item:focus{
+    background-color: #ffffff;
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    border-radius: 2px;
+}
+/* ------------------ services css start --------------*/
+.services h1{
+    font-weight: 900;
+    background: -webkit-linear-gradient(bottom, #2a5ed3 0%, crimson 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.services p{
+    background: -webkit-linear-gradient(left, #2a5ed3 0%, crimson 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card-group img{
+    width: 150px;
+    height: 150px;
+}
+.btn-card{
+    text-decoration: none;
+}
+.card a{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.card-group .card .div-img-ser{
+    padding: 5%;
+    text-align: center;
+}
+.card-body h5{
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 40px;
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card-body p{
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(left, #2a5ed3 0%, crimson 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card-body a{
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    color: white;
+    padding: 3%;
+    border-radius: 50px;
+    border: none;
+}
+.card-group .card-lb { 
+    border: none;
+}
+/* ----------------------- Hover --------------- */
+.card-body .btn-card-lb:hover{
+    text-decoration: none;
+    color: white;
+}
+.card-group .card .div-img-ser:hover{
+    transform: scale(1.2);
+}
+.navbar .navbar-nav .nav-item .active-link:hover{
+    color: #fff;
+}
+/* services css end*/
+
+/* modalbox page css start */
+
+.modal-footer .btn-modal1{
+    background-color: #2a5ed3;
+    border: none;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 2% 5% 2% 5%;
+    border-radius: 50px;
+    color: #ffffff;
+}
+.modal-footer .btn-modal1:hover{
+    background: -webkit-linear-gradient(left, #2a5ed3 0%, crimson 100%);
+    color: #ffffff;
+}
+.modal-footer .btn-modal2{
+    background: #2a5ed3;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 2% 5% 2% 5%;
+    border-radius: 50px;
+}
+.modal-footer .btn-modal2:hover{
+    background: -webkit-linear-gradient(left, #2a5ed3 0%, crimson 100%);
+    color: #ffffff;
+}
+.modal-title{
+    font-weight: bold;
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #ffffff;
+}
+.modal-body b{
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.modal-body p{
+    color: #2a5ed3;
+}
+
+
+/* modalbox page css end */
+
+.carousel .carousel-indicators button{
+    background-color: #2a5ed3;
+}
+
+.carousel .carousel-control-prev-icon-p{
+    background: -webkit-linear-gradient(top, #2a5ed3 0%, crimson 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+/* samsung page css start */
+.card-group .card-img-samsung{
+    width: 100%;
+    height: 300px;
+}
+.card-group .card-samsung img{
+    overflow: hidden;
+    transition: transform .5s ease;
+
+}
+.card-group .card-samsung img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.card-group .card .div-img-samsung{
+    padding: 5%;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 0%;
+}
+.card-group .card-samsung .btn-card-samsung-det{
+       background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    border: none;
+    padding: 3%;
+    border-radius: 50px;
+    color:  #ffffff;
+}
+.card-group .card-samsung .btn-card-samsung-comp{
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    border: none;
+    padding: 3%;
+    border-radius: 50px;
+    color:  #ffffff;
+}
+.card-group .card-samsung{
+    border: none;
+}
+.card-group .card-samsung .btn-card-samsung-comp:active {
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+}
+.card-body .card-title-samsung{
+    font-size: 40px;
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* samsung page css end */
+/* iphone page css start */
+.card-group .card-img-iphone{
+    width: 100%;
+    height: 400px;
+}
+/* iphone page css end */
+
+/* compare page css start */
+.container-sel-1 .select-box1{
+    background: -webkit-linear-gradient(right, #2a5ed3 0%, crimson 100%);
+    color: #ffffff;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    border-style: none;
+    border: none;
+}
+.container-sel-1 .select-box1 option{
+    background-color: white;
+    color: #2a5ed3;
+    border-radius: 2px;
+    border-style: none;
+    border: none;
+}
+/* compare page css end */
+
+.carousel-btn
+{
+    background: -webkit-linear-gradient(left, #2a5ed3 0%, crimson 100%);
+}
+
+/* top css */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 100px; /* Place the button at the bottom of the page */
+    right: 8px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background: -webkit-linear-gradient(left, #2a5ed3 0%, crimson 100%); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */;
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }

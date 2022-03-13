@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Font Awesome Pro CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" type="text/css">
+    <title>Compare</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PHONES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-bars bar" style="color: #2a5ed3;"></i></span>
+          </button>
+          <!-- Navbar link start-->
+          <div class="collapse navbar-collapse justify-content-end me-4" id="navbarNavDropdown">
+            <ul class="navbar-nav me-4">
+              <li class="nav-item">
+                <a class="nav-link p-2 me-2" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" disabled aria-expanded="false">
+                  Phones
+                </a>
+                <ul class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="samsung-phones.html">Samsung</a></li>
+                  <li><a class="dropdown-item" href="./apple-phones.html">Apple</a></li>
+                  <li><a class="dropdown-item" href="huawei-phones.html">Huawei</a></li>
+                  <li><a class="dropdown-item" href="xiaomi-phones.html">Xiaomi</a></li>
+                  <li><a class="dropdown-item" href="motorola-phones.html">Motorola</a></li>
+                  <li><a class="dropdown-item" href="oppo-phones.html">Oppo</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2" href="../index.html#brands">Brands</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Compare</a>
+                <div class="active-link-u mx-auto"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2" href="../pages/about.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar link end -->
+        <div class="container text-center services">
+            <h1>COMPARE</h1>
+            <p>Here You Can Compare Mobile Phones</p>
+        </div>
+
+    <!-- Slect box -->
+    <div class="container-sel-1 d-flex justify-content-around">
+        
+        <select id="select1" class="select-box1 p-1 text-center shadow-lg rounded col-sm-3" data-aos="zoom-in-right" data-aos-duration="1000" style="width: 400px;" onchange="product1()">
+            <option selected>Select A Phone</option>
+            <option disabled>!--------Samsung----------!</option>
+            <option value="val1">S22 ULTRA</option>
+            <option value="val2">S22 PLUS</option>
+            <option value="val3">S22</option>
+            <option value="val4">S21 ULTRA</option>
+            <option value="val5">S21 PLUS</option>
+            <option value="val6">S21</option>
+            <option disabled>!--------Iphone----------!</option>
+            <option value="val7">IPHONE 13 PRO MAX</option>
+            <option value="val8">PHONE 13 PRO</option>
+            <option value="val9">PHONE 13</option>
+            <option disabled>!----------Huawei----------!</option>
+            <option value="val10">HUAWEI P50 PRO</option>
+            <option value="val11">HUAWEI P40 PRO PLUS</option>
+            <option value="val12">HUAWEI P40 PRO</option>
+            <option disabled>!----------Xiaomi----------!</option>
+            <option value="val13">XIAOMI 11T PRO</option>
+            <option value="val14">XIAOMI 11T</option>
+            <option value="val15">MI 11 ULTRA</option>
+            <option disabled>!----------Motorola----------!</option>
+            <option value="val16">MOTO G STYLUS</option>
+            <option value="val17">MOTO G PURE</option>
+            <option value="val18">MOTO G 100</option>
+            <option disabled>!----------Oppo----------!</option>
+            <option value="val19">OPPO FIND X5 PRO</option>
+            <option value="val20">OPPO RENO 7 PRO</option>
+            <option value="val21">OPPO FIND X3 PRO</option>
+        </select>
+
+        <select id="select2" class="select-box1 text-center shadow-lg rounded col-sm-3" data-aos="zoom-in-up" data-aos-duration="1000" style="width: 400px;" onchange="product2()">
+            <option selected>Select A Phone</option>
+            <option disabled>!--------Samsung----------!</option>
+            <option value="val100">S22 ULTRA</option>
+            <option value="val101">S22 PLUS</option>
+            <option value="val102">S22</option>
+            <option value="val103">S21 ULTRA</option>
+            <option value="val104">S21 PLUS</option>
+            <option value="val105">S21</option>
+            <option disabled>!--------Iphone----------!</option>
+            <option value="val106">IPHONE 13 PRO MAX</option>
+            <option value="val107">PHONE 13 PRO</option>
+            <option value="val108">PHONE 13</option>
+            <option disabled>!----------Huawei----------!</option>
+            <option value="val109">HUAWEI P50 PRO</option>
+            <option value="val110">HUAWEI P40 PRO PLUS</option>
+            <option value="val111">HUAWEI P40 PRO</option>
+            <option disabled>!----------Xiaomi----------!</option>
+            <option value="val112">XIAOMI 11T PRO</option>
+            <option value="val113">XIAOMI 11T</option>
+            <option value="val114">MI 11 ULTRA</option>
+            <option disabled>!----------Motorola----------!</option>
+            <option value="val115">MOTO G STYLUS</option>
+            <option value="val116">MOTO G PURE</option>
+            <option value="val117">MOTO G 100</option>
+            <option disabled>!----------Oppo----------!</option>
+            <option value="val118">OPPO FIND X5 PRO</option>
+            <option value="val119">OPPO RENO 7 PRO</option>
+            <option value="val120">OPPO FIND X3 PRO</option>
+        </select>
+
+        <select id="select3" class="select-box1 p-1 text-center shadow-lg rounded col-sm-3" data-aos="zoom-in-left" data-aos-duration="1000" style="width: 400px;" onchange="product3()">
+          <option selected>Select A Phone</option>
+          <option disabled>!--------Samsung----------!</option>
+          <option value="val200">S22 ULTRA</option>
+          <option value="val201">S22 PLUS</option>
+          <option value="val202">S22</option>
+          <option value="val203">S21 ULTRA</option>
+          <option value="val204">S21 PLUS</option>
+          <option value="val205">S21</option>
+          <option disabled>!--------Iphone----------!</option>
+          <option value="val206">IPHONE 13 PRO MAX</option>
+          <option value="val207">PHONE 13 PRO</option>
+          <option value="val208">PHONE 13</option>
+          <option disabled>!----------Huawei----------!</option>
+          <option value="val209">HUAWEI P50 PRO</option>
+          <option value="val210">HUAWEI P40 PRO PLUS</option>
+          <option value="val211">HUAWEI P40 PRO</option>
+          <option disabled>!----------Xiaomi----------!</option>
+          <option value="val212">XIAOMI 11T PRO</option>
+          <option value="val213">XIAOMI 11T</option>
+          <option value="val214">MI 11 ULTRA</option>
+          <option disabled>!----------Motorola----------!</option>
+          <option value="val215">MOTO G STYLUS</option>
+          <option value="val216">MOTO G PURE</option>
+          <option value="val217">MOTO G 100</option>
+          <option disabled>!----------Oppo----------!</option>
+          <option value="val218">OPPO FIND X5 PRO</option>
+          <option value="val219">OPPO RENO 7 PRO</option>
+          <option value="val220">OPPO FIND X3 PRO</option>
+      </select>
+    </div>
+
+    <div class="d-flex justify-content-between me-5 ms-2">
+    
+    <div class="text-center card-samsung shadow-lg mt-2 p-5 rounded col-sm-3 ms-md-5 mt-4" style="width: 28%;" data-aos="zoom-in-up" data-aos-duration="1000">
+        <img id="image" src="" draggable="false" class="card-img-top">
+             <div class="card-body">
+                 <h5 class="card-title text-center" id="model">No Phone selected</h5>
+              <p class="card-text spec" id="spec"></p>
+           </div>
+      </div>
+
+    <div class="text-center card-samsung shadow-lg mt-2 p-5 rounded col-sm-3 ms-md-5 me-5 mt-4" style="width: 28%;" data-aos="zoom-in-up" data-aos-duration="1000">
+        <img id="image1" src="" draggable="false" class="card-img-top">
+             <div class="card-body">
+                 <h5 class="card-title text-center" id="model1">No Phone selected</h5>
+              <p class="card-text spec" id="spec1"></p>
+           </div>
+      </div>
+
+      <div class="text-center card-samsung shadow-lg p-5 rounded col-sm-3 mt-4" style="width: 28%;" data-aos="zoom-in-up" data-aos-duration="1000">
+        <img id="image2" src="" draggable="false" class="card-img-top">
+             <div class="card-body">
+                 <h5 class="card-title text-center" id="model2">No Phone selected</h5>
+              <p class="card-text spec" id="spec2"></p>
+           </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="foot-link py-2 my-3 mt-5 text-center d-flex justify-content-between align-items-center">
+      <div class="col-md-5 d-flex align-items-center">
+        <span class="ms-4 foot-link-text">© 2022 Phones, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 col-sm-3 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="foot-link-text" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" style="font-size: 35px;"></i></a></li>
+        <li class="ms-3"><a class="foot-link-text" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook" style="font-size: 35px;"></i></a></li>
+        <li class="ms-3"><a class="foot-link-text me-3" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube" style="font-size: 35px;"></i></a></li>
+      </ul>
+    </footer>
+      
+    <!-- JAVA-SCRIPT -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+        crossorigin="anonymous">
+      </script>
+      <script src="./compare.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      
+</body>
+</html>
